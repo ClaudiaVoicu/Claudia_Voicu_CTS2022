@@ -7,6 +7,7 @@ public class Autobuz extends MijlocTransport {
 
     @Override
     public void afiseazaDescriere() {
+
         System.out.println("Autobuz " + this.nrInmatriculare);
     }
 }

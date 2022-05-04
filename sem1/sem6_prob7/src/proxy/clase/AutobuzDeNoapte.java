@@ -4,6 +4,7 @@ public class AutobuzDeNoapte implements MijlocTransport{
     private Autobuz autobuz;
 
     public AutobuzDeNoapte(Autobuz autobuz) {
+
         this.autobuz = autobuz;
     }
 
@@ -19,6 +20,7 @@ public class AutobuzDeNoapte implements MijlocTransport{
 
     @Override
     public void setNrCalatori(int nrCalatori) {
+
         autobuz.setNrCalatori(nrCalatori);
     }
 }

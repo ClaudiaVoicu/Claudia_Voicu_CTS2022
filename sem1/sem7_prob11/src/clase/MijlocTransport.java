@@ -14,6 +14,7 @@ public class MijlocTransport {
     }
 
     public void adaugaCalator(ICalator calator){
+
         listaCalatori.add(calator);
     }
     public void stergeCalator(ICalator calator){

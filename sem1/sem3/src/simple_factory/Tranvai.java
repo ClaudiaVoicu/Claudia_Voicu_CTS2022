@@ -2,6 +2,7 @@ package simple_factory;
 
 public class Tranvai extends MijlocTransport {
     public Tranvai(String nrInmatriculare) {
+
         super(nrInmatriculare);
     }
 

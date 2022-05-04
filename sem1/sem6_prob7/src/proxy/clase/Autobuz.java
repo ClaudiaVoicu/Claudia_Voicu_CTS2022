@@ -10,6 +10,7 @@ public class Autobuz implements MijlocTransport{
     }
 
     public int getNrCalatori() {
+
         return nrCalatori;
     }
 
