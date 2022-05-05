@@ -9,6 +9,7 @@ public class Autobuz implements MijlocTransport {
 
     @Override
     public void afiseazaDescriere() {
+
         System.out.println(toString());
     }
 

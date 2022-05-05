@@ -4,6 +4,7 @@ public class Facade {
     private Autobuz autobuz;
 
     public Facade() {
+
         autobuz = new Autobuz();
     }
 

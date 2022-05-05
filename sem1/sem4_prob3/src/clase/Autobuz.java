@@ -1,7 +1,7 @@
 package clase;
 
 public class Autobuz {
-    public String setnumeSofer;
+
     private String numeSofer;
     private String nrInmatriculare;
     private String nrLinie;
@@ -20,7 +20,7 @@ public class Autobuz {
         this.nrLocuri = 20;
     }
 
-    public void setNumeSofer(String numeSofer) {
+    void setNumeSofer(String numeSofer) {
         this.numeSofer = numeSofer;
     }
 

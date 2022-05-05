@@ -4,6 +4,7 @@ import decorator.clase.bilete.PrinterBilet;
 import decorator.clase.bilete.PrinterBiletConcret;
 import decorator.clase.decorator.Decorator;
 import decorator.clase.decorator.PrinterMesajPaste;
+import decorator.clase.decorator.PrinterMesajSpecial;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,7 +18,7 @@ public class Main {
         PrinterBilet printerBilet1 = new PrinterBiletConcret("17/4/2022", 5);
         printerBilet1.afiseazaDescriere();
 
-        Decorator decorator1 = new PrinterMesajPaste(printerBilet1);
+        Decorator decorator1 = new PrinterMesajSpecial(printerBilet1);
         decorator1.afiseazaDescriere();
         decorator1.afiseazaVerso();
 

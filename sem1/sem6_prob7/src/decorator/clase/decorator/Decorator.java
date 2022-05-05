@@ -13,5 +13,6 @@ public abstract class Decorator implements PrinterBilet{
     public void afiseazaDescriere(){
         printerBilet.afiseazaDescriere();
     }
+
     public abstract void afiseazaVerso();
 }

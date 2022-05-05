@@ -2,17 +2,20 @@ package clase;
 
 public class AutobuzBuilder implements Builder{
     private Autobuz autobuz;
+
     public AutobuzBuilder(){
+
         autobuz = new Autobuz();
     }
 
     @Override
     public Autobuz build() {
+
         return this.autobuz;
     }
 
     public AutobuzBuilder setNumeSofer(String numeSofer) {
-        autobuz.setnumeSofer = numeSofer;
+        autobuz.setNumeSofer (numeSofer);
         return this;
     }
 
